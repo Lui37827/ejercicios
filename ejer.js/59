@@ -1,0 +1,6 @@
+let secreto = 7, intentos = [2, 5, 7]; // Simulación de entradas consecutivas
+let gano = false;
+for(let i=0; i<intentos.length && i<5; i++){
+    if(intentos[i] === secreto){ gano = true; break; }
+}
+console.log(gano ? "Ganaste" : "Perdiste");

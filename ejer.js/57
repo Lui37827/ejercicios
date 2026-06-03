@@ -1,0 +1,3 @@
+let clave = "Clave123";
+let valida = clave.length >= 8 && /\d/.test(clave);
+console.log(valida ? "Válida" : "Inválida");

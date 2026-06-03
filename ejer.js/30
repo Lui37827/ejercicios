@@ -1,0 +1,6 @@
+let u = "admin", c = "1234", r = "admin";
+if (u === "admin" && c === "1234" && r === "admin") {
+    console.log("Acceso total");
+} else {
+    console.log("Denegado");
+}

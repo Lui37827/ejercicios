@@ -1,0 +1,2 @@
+let num = 4568;
+console.log(num.toString().length);

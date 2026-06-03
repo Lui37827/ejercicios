@@ -1,0 +1,9 @@
+console.log("1. Saludar\n2. Fecha\n3. Salir");
+let opcion = 1;
+if (opcion === 1) {
+    console.log("Hola!");
+} else if (opcion === 2) {
+    console.log("03/06/2026");
+} else if (opcion === 3) {
+    console.log("Adiós");
+}

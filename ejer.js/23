@@ -1,0 +1,6 @@
+let salarioBase = 1200000;
+let valorHora = 6000;
+let horasExtra = 10;
+
+let total = salarioBase + (horasExtra * valorHora * 1.5);
+console.log(total);

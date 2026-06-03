@@ -1,0 +1,5 @@
+let carrito = [];
+carrito.push(15000); // Agregar producto 1
+carrito.push(23000); // Agregar producto 2
+let total = carrito.reduce((a,b) => a + b, 0);
+console.log("Total carrito:", total);

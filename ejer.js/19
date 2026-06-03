@@ -1,0 +1,13 @@
+let salario = 2500000;
+let impuesto = 0;
+
+if (salario > 3000000) {
+    impuesto = salario * 0.20;
+} else if (salario >= 1500000) {
+    impuesto = salario * 0.10;
+} else {
+    impuesto = 0;
+}
+
+let neto = salario - impuesto;
+console.log(salario, impuesto, neto);

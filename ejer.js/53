@@ -1,0 +1,3 @@
+let usuarios = [];
+usuarios.push({ nombre: "Luis", edad: 19 });
+console.log(usuarios);

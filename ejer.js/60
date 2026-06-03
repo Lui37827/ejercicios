@@ -1,0 +1,4 @@
+let votos = [12, 25, 18]; // Votos totales calculados para Cand 0, 1 y 2
+let maxVotos = Math.max(...votos);
+let ganador = votos.indexOf(maxVotos);
+console.log(`Ganador Candidato: ${ganador} con ${maxVotos} votos`);

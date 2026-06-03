@@ -1,0 +1,6 @@
+let nota = 3.8;
+if (nota >= 3.5) {
+    console.log("Aprueba");
+} else {
+    console.log("Reprueba");
+}

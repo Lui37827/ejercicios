@@ -1,0 +1,3 @@
+let notas = [4.0, 3.5, 4.2, 2.8, 3.9];
+let prom = notas.reduce((a,b)=>a+b, 0) / 5;
+console.log("Promedio:", prom, prom >= 3.5 ? "Aprobado" : "Reprobado");

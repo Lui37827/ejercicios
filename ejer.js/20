@@ -1,0 +1,11 @@
+let userDb = "admin";
+let passDb = "1234";
+
+let userIn = "admin";
+let passIn = "xyz";
+
+if (userIn === userDb && passIn === passDb) {
+    console.log("Acceso concedido");
+} else {
+    console.log("Acceso denegado");
+}

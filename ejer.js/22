@@ -1,0 +1,8 @@
+let a = 5, b = 5, c = 8;
+if (a === b && b === c) {
+    console.log("equilátero");
+} else if (a === b || b === c || a === c) {
+    console.log("isósceles");
+} else {
+    console.log("escaleno");
+}

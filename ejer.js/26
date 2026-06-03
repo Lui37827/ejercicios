@@ -1,0 +1,8 @@
+let tipo = 1; // 1 = VIP, 2 = Normal
+let total = 50000;
+if (tipo === 1) {
+    total *= 0.80;
+} else {
+    total *= 0.95;
+}
+console.log(total);

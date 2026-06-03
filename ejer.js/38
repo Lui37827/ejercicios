@@ -1,0 +1,4 @@
+let secreto = 7; // Simulación manual
+let intento = 4;
+if (intento === secreto) console.log("Acertaste");
+else console.log(secreto > intento ? "Mayor" : "Menor");

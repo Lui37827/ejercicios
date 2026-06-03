@@ -1,0 +1,2 @@
+let arr = [10, 5, 20, 15];
+console.log(Math.max(...arr), Math.min(...arr), arr.reduce((a,b)=>a+b,0)/arr.length);

@@ -1,0 +1,4 @@
+let arr = [10, 20, 30, 40];
+let buscar = 30;
+let pos = arr.indexOf(buscar);
+console.log(pos !== -1 ? "Posición: " + pos : "No existe");

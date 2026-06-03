@@ -1,0 +1,5 @@
+let nota = 4.2;
+if (nota >= 4.5) console.log("Excelente");
+else if (nota >= 4.0) console.log("Bueno");
+else if (nota >= 3.0) console.log("Aprobado");
+else console.log("Reprobado");

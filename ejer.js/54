@@ -1,0 +1,3 @@
+let usuarios = [{ nombre: "Ana", edad: 15 }, { nombre: "Luis", edad: 20 }];
+let mayores = usuarios.filter(u => u.edad >= 18);
+console.log(mayores);

@@ -1,0 +1,10 @@
+let edad = 25;
+if (edad <= 12) {
+    console.log("niño");
+} else if (edad <= 17) {
+    console.log("joven");
+} else if (edad <= 59) {
+    console.log("adulto");
+} else {
+    console.log("adulto mayor");
+}
